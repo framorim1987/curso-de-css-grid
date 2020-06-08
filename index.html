@@ -11,11 +11,28 @@
     <link href="./assets/css/style.css" rel="stylesheet">
     <link href="./assets/css/destaques.css" rel="stylesheet">
     <link href="./assets/css/populares.css" rel="stylesheet">
+    <link href="./assets/css/menu.css" rel="stylesheet">
 </head>
 
 <body class="app">
     <header class="cabecalho">
-        CABECALHO
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a class="menu__link ativo" href="#">
+                        <i class="fas fa-home"></i>
+                        Início
+                    </a>
+                    <a class="menu__link" href="#">
+                        <i class="fas fa-mobile-alt"></i>
+                        Aplicativos</a>
+                    <a class="menu__link" href="#">
+                        <i class="fas fa-gamepad"></i>
+                        Jogos
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <main class="conteudo">
@@ -79,7 +96,7 @@
                         </button>
                     </div>
                 </div>
-                
+
                 <div class="populares__conteudo">
                     <div class="populares__card">
                         <img class="populares__card___imagem" src="./assets/img/slack.png">
@@ -418,7 +435,7 @@
     </main>
 
     <footer class="rodape">
-        RODAPE
+        Todos os direitos reservados &copy;2019
     </footer>
 
     <script src="./assets/js/fontawesome.all.min.js"></script>
